@@ -81,7 +81,7 @@ const Weather = () => {
                                 </div>
                             ) : error ? (
                                 <div className="text-center h-full content-center">
-                                    <p className="text-red-700">Country not found</p>
+                                    <p className="text-red-700">Country is not found</p>
                                 </div>
                             ) : (
                                 <div className="text-center h-full content-center">
